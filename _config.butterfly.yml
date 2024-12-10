@@ -1,0 +1,58 @@
+# 导航 
+nav:
+  logo: /xxxx.png
+  display_title: true # 是否显示网站标题
+  fixed: false # 是否固定状态栏
+
+# 菜单
+menu:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  清单||fa fa-heartbeat:
+    音乐: /music/ || fas fa-music
+    照片: /Gallery/ || fas fa-images
+    电影: /movies/ || fas fa-video
+
+  
+
+# 代码块配置  
+code_blocks:
+  # Code block theme: darker / pale night / light / ocean / false
+  theme: darker
+  macStyle: true # 是否启用 Mac 风格
+  # Code block height limit (unit: px) 是否启用滚条
+  height_limit: false
+  word_wrap: true # 代码是否自动换行
+
+  # Toolbar
+  copy: true # 是否允许用户复制代码
+  language: true # 是否显示代码的语言
+  # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
+  shrink: false
+  fullpage: false  
+  
+# Local Search
+local_search:
+  enable: ture # 启用本地搜索
+  preload: false # 页面加载时是否预加载搜索数据
+  top_n_per_article: 1 # 每篇文章显示最多 3 个搜索结果
+  unescape: true # 不解码 HTML 字符实体
+  CDN:
+  
+search:
+  # Choose: algolia_search / local_search / docsearch
+  # leave it empty if you don't need search
+  use: local_search  # 使用本地搜索
+  placeholder: "finding..."
+
+  # Local Search
+  local_search:
+    # Preload the search data when the page loads.
+    preload: false
+    # Show top n results per article, show all results by setting to -1
+    top_n_per_article: 1
+    # Unescape html strings to the readable one.
+    unescape: true
+    CDN:
