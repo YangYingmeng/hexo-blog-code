@@ -1,6 +1,6 @@
 # 导航 
 nav:
-  logo: /xxxx.png
+  logo: /image/logo.gif
   display_title: true # 是否显示网站标题
   fixed: false # 是否固定状态栏
 
@@ -14,6 +14,17 @@ menu:
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
+
+# 头像    
+avatar:
+  img: /image/avatar.png
+  effect: false    
+  
+
+#顶部图
+index_img: /image/index.jpg
+default_top_img: /image/index.jpg
+index_top_img_height: 600px #顶部图高度  
 
   
 
